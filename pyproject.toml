@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "datasus-tabwin"
+version = "0.1.0"
+description = ""
+authors = ["Jean Torre"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+pre-commit = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = 'black'
